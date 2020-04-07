@@ -1,6 +1,6 @@
-print "donnez moi un nombre"
+puts "écrivez un nombre ?"
 nombre = gets.chomp.to_i
 
-nombre.times do |i|
-    puts "salut ca farte ?"
+nombre.times do
+    puts "Salut, ça farte ?"
 end
